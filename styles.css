@@ -53,7 +53,6 @@ a:hover {
   box-shadow: 0 0 18px rgba(236, 72, 153, 0.45);
 }
 
-/* HERO */
 .principal {
   background: linear-gradient(135deg, #050816, #0A0F2C);
   min-height: 100vh;
@@ -69,7 +68,6 @@ a:hover {
   overflow: hidden;
 }
 
-/* TEXTO */
 .textos {
   max-width: 520px;
   z-index: 2;
@@ -100,7 +98,6 @@ a:hover {
   color: #dbeafe;
 }
 
-/* BOTÕES */
 .botoes {
   display: flex;
   gap: 18px;
