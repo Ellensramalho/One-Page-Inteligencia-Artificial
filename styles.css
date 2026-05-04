@@ -55,11 +55,9 @@ a:hover {
   background: linear-gradient(135deg, #050816, #0A0F2C);
   min-height: 100vh;
   color: white;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 60px 80px;
   gap: 40px;
   overflow: hidden;
@@ -138,18 +136,17 @@ a:hover {
   margin-top: -8%;
   transform: scale(1.9);
   transform-origin: right center;
-
-  position: relative;
-  right: -120px;
-
+  position: absolute;
+  right: 130px;
   z-index: 1;
 }
 
 .cards {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   z-index: 2;
+  width: 220px;
 }
 
 .card {
@@ -400,4 +397,157 @@ hr{
   border: 3px solid #B39DDB;
   margin-left: 45px;
   font-family: 'Quicksand', sans-serif;
+}
+
+.containerEtica {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 20px 40px;
+  border: 1px solid #e5ebf5;
+  border-radius: 18px;
+  background: #f8fbff;
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.Etica1 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.imgEtica {
+  width: 110px;
+}
+
+.textoEtica h3 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  color: #080b2a;
+}
+
+.textoEtica p {
+  margin: 0;
+  max-width: 520px;
+  font-size: 16px;
+  color: #111827;
+}
+
+.TopicosEticos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px 32px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 190px;
+  padding: 10px 22px;
+  border: 2px solid #dfe7f2;
+  border-radius: 999px;
+  background: white;
+}
+
+.item img {
+  width: 24px;
+  height: 24px;
+}
+
+.item h6 {
+  margin: 0;
+  font-size: 16px;
+  color: #2f3558;
+}
+
+.containerFuturoIA{
+  background: linear-gradient(
+  90deg,
+  #2a1dbf 0%,
+  #4b1fa3 25%,
+  #7b1fa2 50%,
+  #b91c7d 75%,
+  #f97316 100%
+);
+  min-height: 300px;
+  display: flex;
+  padding: 25px;
+  gap: 50px;
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 12px;
+}
+.textosFuturoIA{
+  max-width: 350px;
+}
+
+.textosFuturoIA h3{
+  color: white;
+  margin: 10px;
+  font-size: 25px;
+}
+.textosFuturoIA p{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.dados{
+  display: flex;
+  gap: 20px;
+  width: 80%;
+
+
+}
+.dadosSobreIA{
+  max-width: 250px;
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dadosSobreIA img{
+  width: 80px;
+}
+
+.dadosSobreIA h3{
+  font-size: 20px;
+  margin: 10px;
+}
+
+.dadosSobreIA p{
+  font-size: 12px;
+  margin: 10px;
+}
+
+
+.card1{
+  background: linear-gradient(135deg, #0B1F5B, #1E3A8A);
+  border: 2px solid #3B82F6;
+}
+
+.card2{
+  background: linear-gradient(135deg, #2E1065, #6B21A8);
+  border: 2px solid #A855F7;
+}
+
+.card3{
+  background: linear-gradient(135deg, #4A044E, #BE185D);
+  border: 2px solid #EC4899;
+}
+
+.card4{
+  background: linear-gradient(135deg, #7C2D12, #EA580C);
+  border: 2px solid #F59E0B;
 }
