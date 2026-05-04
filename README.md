@@ -68,16 +68,6 @@ cd One-Page-Inteligencia-Artificial
 
 ---
 
-## 💡 Possíveis Melhorias
-
-* Adicionar interatividade com JavaScript
-* Criar animações nas seções
-* Implementar dark mode 🌙
-* Adicionar chatbot com IA
-* Tornar os botões funcionais (navegação interna)
-
----
-
 ## 📚 Objetivo de Aprendizado
 
 Este projeto contribui para o desenvolvimento de habilidades em:
